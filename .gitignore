@@ -1,0 +1,34 @@
+src/*.exe
+src/asgardiacoin
+src/asgardiacoind
+src/test_asgardiacoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.asgardiacoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+asgardiacoin-qt
+Asgardiacoin-Qt.app
+
+# Unit-tests
+Makefile.test
+asgardiacoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
